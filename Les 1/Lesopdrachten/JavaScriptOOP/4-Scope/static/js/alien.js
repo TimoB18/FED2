@@ -10,6 +10,12 @@ function Alien(name) {
 		console.log('Hi, my name is ' + this.name);
 	}
 
+	function makingVariables() {
+		var iterator = 1;
+		var max = 10;
+		var min = 0;
+	}
+
 var rob = new Alien('Robert Rock');
 
 rob.speak();
@@ -32,4 +38,12 @@ rob.speak();
 	var breakpoint = 'let\'s stop the application here';
 	
 	roberta.speak();
+
+	function makingVariables() {
+		var iterator = 1;
+		var max = 10;
+		var min = 0;
+	}
+
 })();
+
